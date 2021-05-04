@@ -1,0 +1,62 @@
+/*
+
+전체너비: 너비 1150px
+header, footer: height 100px
+input box: width 325px
+
+banner: width 850px, height 272px
+menu: width 225px
+
+product img: width/height 100px
+*/
+
+/*영역 시각적으로 표시*/
+header, main, footer, nav {border:1px solid red;}
+
+body {margin: 0} /*남는 공간 없이 해주는 것*/
+header {height: 100px;}
+nav {height: 35px;}
+
+/*nav영역에 적용하는 스타일 시트*/
+nav ul { list-style-type: none; padding-bottom: 0 }
+ul { list-style-type: none; padding-bottom: 0 }
+
+
+
+/*전체영역*/
+#wrap nav hr {clear: both;}
+#wrap {width: 1150px; margin: 0 auto; }
+#wrap nav ul li { float: right; margin-left: 10px; margin-top: auto;}
+
+#banner ul li { float: right; margin-left: 10px; margin-top: auto;}
+
+#prodlist ul li { float: left; margin: 57px}
+
+
+
+
+
+/*링크에 대한 스타일 시트*/
+a {font-weight: bold;}
+a:link {text-decoration: none; color: black}
+a:visited {text-decoration: none; color: black}
+a:active {text-decoration: underline; color: orange}
+a:hover {text-decoration: underline; color: orange}
+
+/*banner 영역에 적용하는 스타일 시트*/
+
+#banner {width 850px; height 272px;}
+
+
+/*main영역에 적용하는 스타일 시트*/
+#container { min-height: 500px;}
+#srcfrm {margin: 0, auto;}
+input, button {padding: 3px;}
+input {width: 325px}
+
+
+
+
+
+
+/*footer영역에 적용하는 스타일 시트*/
