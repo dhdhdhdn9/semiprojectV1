@@ -1,5 +1,4 @@
 /*
-
 전체너비: 너비 1150px
 header, footer: height 100px
 input box: width 325px
@@ -7,56 +6,52 @@ input box: width 325px
 banner: width 850px, height 272px
 menu: width 225px
 
-product img: width/height 100px
+product img: width/height 115px
 */
 
-/*영역 시각적으로 표시*/
-header, main, footer, nav {border:1px solid red;}
-
+/*전체적으로 적용*/
+/*header, main, footer, nav {border:1px solid red;}*/
 body {margin: 0} /*남는 공간 없이 해주는 것*/
+ul { list-style: none; padding-bottom: 0 }
+#wrap {width: 1150px; margin: 0 auto;}
+
+
+/*header*/
 header {height: 100px;}
-nav {height: 35px;}
-
-/*nav영역에 적용하는 스타일 시트*/
-nav ul { list-style-type: none; padding-bottom: 0 }
-ul { list-style-type: none; padding-bottom: 0 }
-
-
-
-/*전체영역*/
-#wrap nav hr {clear: both;}
-#wrap {width: 1150px; margin: 0 auto; }
-#wrap nav ul li { float: right; margin-left: 10px; margin-top: auto;}
-
-#banner ul li { float: right; margin-left: 10px; margin-top: auto;}
-
-#prodlist ul li { float: left; margin: 57px}
+header h1 {background: gainsboro; padding: 20px 50px; margin: 10px 10px 10px 25px;
+            width: 70px; float: left; }
+header p {float: left; margin-top: 65px;}
+header ul { float: right; margin-right: 2px; margin-top: 0px;}
+header li { float: left; padding: 5px}
 
 
+/*nav*/
+nav {height: 35px; clear: both; padding-left: 20px; padding-top: 5px; background: gainsboro;}
+nav input {border: 1px solid black; padding: 5px; width: 325px;}
+nav select {padding: 5px; width: 150px; text-decoration: underline; font-size: 14px}
+nav button {padding: 5px; width: 125px; background: silver; font-size: 14px;}
 
 
+/*main*/
+section:nth-child(2) {clear: both;}
 
-/*링크에 대한 스타일 시트*/
-a {font-weight: bold;}
-a:link {text-decoration: none; color: black}
-a:visited {text-decoration: none; color: black}
-a:active {text-decoration: underline; color: orange}
-a:hover {text-decoration: underline; color: orange}
+aside {width: 225px; float: left}
+aside ul {margin: 10px 10px 20px 20px; border: 3px solid black;}
+aside li { border-bottom: 1px solid black; padding: 7px 14px; font-weight: bold; font-size: 18px; }
+aside li:last-child {border-bottom: none;}
 
-/*banner 영역에 적용하는 스타일 시트*/
+#banner {width: 850px; height: 272px; float: right; margin: 10px 55px 20px 0; border: 3px solid black;}
+#banner h3 {text-align: center; margin-top: 120px;}
+#banner ul {float: right; margin-right: 0px; margin-top: 60px; }
+#banner li {float: left; margin-right: 20px; padding: 8px 12px; background: gainsboro; font-weight: bold;}
 
-#banner {width 850px; height 272px;}
-
-
-/*main영역에 적용하는 스타일 시트*/
-#container { min-height: 500px;}
-#srcfrm {margin: 0, auto;}
-input, button {padding: 3px;}
-input {width: 325px}
+#prodlist h3 {margin-left: 25px;}
+#prodlist div {background: gainsboro; width: 115px; height: 115px; border-radius: 10px;}
+#prodlist li {float: left; margin-left: 10px; margin-right: 55px;}
+#prodlist p {text-align: center; margin-bottom: 40px;}
 
 
 
-
-
-
-/*footer영역에 적용하는 스타일 시트*/
+/*footer*/
+footer {height: 100px; clear: both;}
+footer ul { float: left; margin-left: 10px; margin-right: 50px; }
