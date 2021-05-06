@@ -40,8 +40,8 @@ aside ul {margin: 10px; border: 3px solid black;}
 aside li { border-bottom: 1px solid black; padding: 7px 14px; font-weight: bold; font-size: 18px;}
 aside li:last-child {border-bottom: none;}
 
-#banner {width: 850px; height: 272px; float: right; margin: 10px 0px 20px 0; border: 3px solid black;}
-#banner h3 {text-align: center; margin-top: 120px;}
+#banner {width: 850px; height: 245px; float: right; margin: 10px 0px 20px 0; border: 3px solid black;}
+#banner h3 {text-align: center; margin-top: 105px;}
 #banner ul {float: right; margin-right: 0px; margin-top: 60px; }
 #banner li {float: left; margin-right: 20px; padding: 8px 12px; background: gainsboro; font-weight: bold;}
 
