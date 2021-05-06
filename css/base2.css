@@ -12,7 +12,7 @@ product img: width/height 115px
 /*전체적으로 적용*/
 /*header, main, footer, nav {border:1px solid red;}*/
 body {margin: 0} /*남는 공간 없이 해주는 것*/
-ul { list-style: none; padding-bottom: 0 }
+ul { list-style: none; padding-bottom: 0; padding-left: 0}
 #wrap {width: 1150px; margin: 0 auto;}
 
 
@@ -35,23 +35,23 @@ nav button {padding: 5px; width: 125px; background: silver; font-size: 14px;}
 /*main*/
 section:nth-child(2) {clear: both;}
 
-aside {width: 225px; float: left}
-aside ul {margin: 10px 10px 20px 20px; border: 3px solid black;}
-aside li { border-bottom: 1px solid black; padding: 7px 14px; font-weight: bold; font-size: 18px; }
+aside {width: 285px; float: left;}
+aside ul {margin: 10px; border: 3px solid black;}
+aside li { border-bottom: 1px solid black; padding: 7px 14px; font-weight: bold; font-size: 18px;}
 aside li:last-child {border-bottom: none;}
 
-#banner {width: 850px; height: 272px; float: right; margin: 10px 55px 20px 0; border: 3px solid black;}
+#banner {width: 850px; height: 272px; float: right; margin: 10px 0px 20px 0; border: 3px solid black;}
 #banner h3 {text-align: center; margin-top: 120px;}
 #banner ul {float: right; margin-right: 0px; margin-top: 60px; }
 #banner li {float: left; margin-right: 20px; padding: 8px 12px; background: gainsboro; font-weight: bold;}
 
 #prodlist h3 {margin-left: 25px;}
-#prodlist div {background: gainsboro; width: 115px; height: 115px; border-radius: 10px;}
-#prodlist li {float: left; margin-left: 10px; margin-right: 55px;}
+#prodlist div {background: gainsboro; width: 120px; height: 120px; border-radius: 10px;}
+#prodlist li {float: left; margin-left: 40px; margin-right: 30px;}
 #prodlist p {text-align: center; margin-bottom: 40px;}
 
 
 
 /*footer*/
 footer {height: 100px; clear: both;}
-footer ul { float: left; margin-left: 10px; margin-right: 50px; }
+footer ul { float: left; margin-left: 30px; margin-right: 50px; }
