@@ -1,0 +1,61 @@
+/*
+전체너비: 너비 1150px
+header, footer: height 125px
+nav: 높 35
+aside: 너비 225
+content: width 915
+
+게시판(최신정보/사용기): 440
+
+*/
+
+
+/*전체적으로 적용*/
+header, main, footer, nav {border:1px solid red;}
+body {margin: 0} /*남는 공간 없이 해주는 것*/
+ul { list-style: none; padding-bottom: 0; padding-left: 0}
+#wrap {width: 1150px; margin: 0 auto;}
+aside {width: 225px; float: left;}
+
+
+/*header*/
+header {height: 125px; margin-top: 10px;}
+header aside {background: indigo; height: 110px;}
+header li {float: right; margin-left: 10px;}
+header {background: lightseagreen;}
+
+nav {margin-left: 500px;}
+nav input { padding:5px 50px 5px 100px; border: 3px solid seagreen;}
+nav button { padding: 2px 20px 5px 20px; background: seagreen;}
+
+
+/*content 왼쪽*/
+
+aside {background: gold;}
+
+#login1 li {float: left; padding: 5px; font-size: 12px; border-bottom: 1px solid black;}
+#login2 li {float: left; padding: 10px; font-size: 14px}
+
+#login3 input {margin-left: 10px;}
+#login3 button {margin-left: 10px; margin-bottom: 0px}
+
+#notice {margin-top: 100px}
+#notice ul {margin-left: 20px; font-size: 13px; line-height: 25px }
+#notice1 {background: black; color: white;}
+
+#notice2 {margin-bottom: 0px;}
+
+
+/*content 오른쪽*/
+
+#content {background: coral; padding: 30px 30px 0px 260px}
+
+#info {background: DarkSeaGreen; margin-top: -20px;  padding: 10px; }
+
+
+#inform ul h4 {background: slateblue; width: 440px; margin-bottom: 0;}
+#inform li { background: white; width: 440px; padding: 0px 0px 10px 0px;}
+
+
+
+
